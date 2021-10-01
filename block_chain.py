@@ -12,6 +12,7 @@ class BlockChain(object):
         self.transactions = Transactions()
         self.create_new_block(previous_hash=1,proof=100)
 
+
     def create_new_block(self,proof=0,previous_hash=0):
         """
         Create a new Block in the Blockchain

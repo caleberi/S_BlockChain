@@ -43,7 +43,7 @@ class Transactions:
             self.__tail.next = txn
             txn.prev = self.__tail
             self.__tail = txn
-    @property
+    
     def transactions(self):
         txns = []
         current = self.__head
